@@ -28,7 +28,7 @@ const categories = [
     link: "/products/headset",
   },
   {
-    image: "/imgs/holder.png",
+    image: "/imgs/holder1.png",
     alt: "هولدر و نگهدارنده",
     link: "/products/holders",
   },
