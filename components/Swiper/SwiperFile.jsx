@@ -13,7 +13,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const SwiperFile = () => {
   return (
-    <div className="wrapper w-full max-w-303.5 mx-auto aspect-3/1">
+    <div className="wrapper w-full max-w-303.5 mx-auto">
       <Swiper
         spaceBetween={30}
         centeredSlides
@@ -24,7 +24,7 @@ const SwiperFile = () => {
         pagination={{ clickable: true }}
         navigation
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper w-full h-100 mt-7.5"
+        className="mySwiper w-full aspect-3/1 h-auto mt-7.5"
       >
         <SwiperSlide>
           <a href="#">

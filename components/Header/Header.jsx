@@ -100,8 +100,15 @@ const Header = () => {
       <header className="w-full border-b border-gray-200">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3 gap-4">
           {/* Logo */}
-          <a href="/" className="flex items-center">
-            <img src="/imgs/logo.png" alt="Dastresi" className="h-10" />
+          <a
+            href="/"
+            className=" flex items-center shrink min-w-15 max-w-25  overflow-visible"
+          >
+            <img
+              src="/imgs/logo.png"
+              alt="Dastresi"
+              className="h-10 object-contain"
+            />
           </a>
 
           {/* Search */}

@@ -50,3 +50,16 @@ body {
   font-family: 'Shabnam', sans-serif;
   direction: rtl;
 }
+
+/* Prevent pagination from dropping down on small screens */
+.swiper {
+  padding-bottom: 0 !important;
+}
+
+.swiper-pagination {
+  position: absolute !important;
+  bottom: 10px !important;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
